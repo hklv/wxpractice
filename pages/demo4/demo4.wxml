@@ -1,0 +1,14 @@
+<view>
+	<view>{{msg}}</view>
+	<button data-hi="hello" data-a="100" bindtap="func1">点我</button>
+</view>
+
+<view bindtap="func4">
+	outer
+	<view bindtap="func3">
+		middle
+		<view catchtap="func2">
+			inner
+		</view>
+	</view>
+</view>

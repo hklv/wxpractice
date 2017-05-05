@@ -1,0 +1,29 @@
+{
+  "pages":[
+    "pages/demo4/demo4",
+    "pages/test/test",
+    "pages/firstpage/hellomj",
+    "pages/logs/logs"
+  ],
+  "window":{
+    "backgroundTextStyle":"light",
+    "navigationBarBackgroundColor": "#fff",
+    "navigationBarTitleText": "我的宝",
+    "navigationBarTextStyle":"black",
+    "enablePullDownRefresh":"true"
+  },
+  "tabBar":{
+    "backgroudColor":"#dfdfdf",
+    "selectedColor":"blue",
+    "list":[
+       {
+        "text":"靓照",
+        "pagePath":"pages/test/test"
+       },
+       {
+        "text":"首页",
+        "pagePath":"pages/firstpage/hellomj"
+       }
+    ]
+  }
+}

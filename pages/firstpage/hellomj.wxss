@@ -1,0 +1,10 @@
+.yesButton {
+    color: green;
+    width:50px;
+    display: flex
+}
+.noButton{
+    color: cornflowerblue;
+     width:50px;
+    display: flex
+}

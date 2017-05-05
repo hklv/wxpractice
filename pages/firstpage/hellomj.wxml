@@ -1,0 +1,4 @@
+<view >{{name}}</view>
+<button bindtap="changeNameYes" class="yesButton">yes</button>
+<button bindtap="changeNameNo" class="noButton">no</button>
+<image src="../images/lhk_mj.jpg" mode="aspectFill" style="width:100%;display:none" class="lhk_mj"></image>

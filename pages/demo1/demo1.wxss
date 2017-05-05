@@ -1,0 +1,13 @@
+.pg_hd{
+	text-align:center;
+}
+.item{
+	height:200rpx;
+	width:33.3333%;
+	border:1px solid #dfdfdf;
+}
+.wrapper{
+	display:flex;
+	padding:0 10px;
+	flex-wrap:nowrap;
+}

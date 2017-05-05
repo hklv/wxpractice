@@ -1,0 +1,4 @@
+.mod-test{
+	text-align:center;
+	color:red;
+}

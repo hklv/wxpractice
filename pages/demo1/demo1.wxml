@@ -1,0 +1,12 @@
+<view>
+	<view class="page_hd">
+		<text>弹性盒</text>
+	</view>
+	<view class="page_bd">
+		<view class="wrapper">
+			<view class="item">111</view>
+			<view class="item">222</view>
+			<view class="item">333</view>
+		</view>
+	</view>
+</view>
