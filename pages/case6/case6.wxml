@@ -1,0 +1,7 @@
+<view class="center">
+	<picker bindchange="change" value="{{index}}" range="{{arrayObject}}">
+		<view class="picker">
+			{{arrayObject[index]}}
+		</view>
+	</picker>
+</view>

@@ -1,0 +1,14 @@
+<view class="page center">
+	<view>{{selyear}}--{{selsea}}--{{seladd}}</view>
+	<picker-view value="{{value}}" indicator-style="height:50px" style="width:100%;height:300px" bindchange="change">
+		<picker-view-column>
+			<view wx:for="{{years}}" style="line-height:50px">{{item}}</view>
+		</picker-view-column>
+		<picker-view-column>
+			<view wx:for="{{seasons}}" style="line-height:50px">{{item}}</view>
+		</picker-view-column>
+		<picker-view-column>
+			<view wx:for="{{addresses}}" style="line-height:50px">{{item}}</view>
+		</picker-view-column>
+	</picker-view>
+</view>

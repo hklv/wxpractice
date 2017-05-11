@@ -12,3 +12,34 @@
 		</view>
 	</view>
 </view>
+<view>
+	{{name}}
+</view>
+<view wx:if="{{condition>90}}">
+	90
+</view>
+<view wx:if="{{condition>80}}"> 
+	80
+</view>
+<view wx:for="{{list}}">
+	{{item.name}}--->{{item.tel}}
+</view>
+<view wx:for="{{image}}">
+	<view style="text-align:center">{{item.name}}</view>
+	<image mode="aspectFill" src="{{item.src}}"></image>
+</view>
+<view data-flag="1" wx:if="{{flag}}">
+	比较if和hidden  if
+</view>
+<view data-flag="2" hidden="{{flag}}">
+	比较if和hidden  hidden
+</view>
+
+<block wx:if="{{true}}">
+	<view>111</view>
+	<view>222</view>
+</block>
+<view>template</view>
+<import src="item.wxml"/>
+<include src = "tips.wxml"/>
+<template is="info" data="{{...item}}"/>

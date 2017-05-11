@@ -1,0 +1,6 @@
+<view class="page">
+	<scroll-view class="scroll" scroll-y="{{true}}" style="height:300px" scroll-top="100" bindscrolltolower="lower" bindscrolltoupper="upper">
+		<view class="inner"></view>
+	</scroll-view>
+
+</view>

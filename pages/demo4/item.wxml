@@ -1,0 +1,8 @@
+<template name="info">
+    <view>
+    	<text>{{name}}</text>
+    </view>	
+    <view>
+    	<text>{{tel}}</text>
+    </view>
+</template>

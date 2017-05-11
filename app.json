@@ -1,5 +1,10 @@
 {
   "pages":[
+    "pages/case6/case6",
+    "pages/case5/case5",
+    "pages/case4/case4",
+    "pages/case3/case3",
+    "pages/case2/case2",
     "pages/demo4/demo4",
     "pages/test/test",
     "pages/firstpage/hellomj",
