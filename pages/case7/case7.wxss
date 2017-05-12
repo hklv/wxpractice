@@ -1,0 +1,8 @@
+.item{
+	background:#dfdfdf;
+    padding:10px;
+    line-height:30px;
+}
+switch{
+	float:right;
+}

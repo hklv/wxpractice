@@ -1,0 +1,9 @@
+<view class="page">
+	<view class="item">
+		声音<switch checked bindchange="change"/>
+
+	</view>
+    <view  class="item">
+    	震动<switch  checked bindchange="change"/>
+    </view>
+</view>

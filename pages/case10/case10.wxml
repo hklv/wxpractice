@@ -1,0 +1,3 @@
+<view class="page">
+	<audio poster="{{poster}}" name="{{name}}" author="{{author}}" src="{{src}}" controls></audio>
+</view>

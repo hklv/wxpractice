@@ -1,0 +1,4 @@
+<view class="page">
+	<navigator url="/pages/case8/case8?title=from_case9&a=1&b=2&c=3">跳转到case8</navigator>
+	<view bindtap="redirect">跳转到case8</view>
+</view>
